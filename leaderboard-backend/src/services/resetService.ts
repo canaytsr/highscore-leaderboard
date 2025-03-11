@@ -8,7 +8,6 @@ export const resetLeaderboard = async () => {
       .set('prize_pool', '0')
       .exec();
 
-    console.log('✅ Leaderboard reset successfully');
     return 'Leaderboard reset successfully';
   } catch (error) {
     console.error('❌ Error resetting leaderboard:', error);
