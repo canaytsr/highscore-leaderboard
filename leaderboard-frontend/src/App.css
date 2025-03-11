@@ -1,0 +1,281 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #000000dd;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  background: rgba(33, 16, 69, 0.93);
+  padding: 50px;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px; 
+  margin-bottom: 20px;
+  flex-wrap: wrap; 
+}
+
+.p-autocomplete,
+.p-dropdown {
+  flex: 1; 
+  max-width: 400px; 
+  min-width: 250px; 
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-top: 10px;
+}
+
+.p-datatable {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.p-datatable th,
+.p-datatable td {
+  padding: 12px 15px;
+  background-color: #411c7cdf;
+}
+
+.p-datatable th {
+  background-color: #23064fd8;
+  color: rgb(167, 159, 159);
+  font-size: 16px;  
+}
+
+.p-datatable td {
+  font-size: 14px;
+  color: rgb(167, 159, 159);
+}
+
+/* neww */
+.p-datatable tr:hover {
+  background-color: #9db7a2;
+  color: rgb(207, 15, 166);
+
+}
+
+.p-datatable th, .p-datatable td {
+  padding: 15px 20px;
+  border-bottom: 1px solid #000000;
+
+}
+.p-datatable-footer		{
+  background-color: #fff203;
+  color: rgb(255, 183, 0);
+}
+.leaderboard-header{
+  color: rgb(255, 255, 255);
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 1rem;
+  color: #f1f1f1; 
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+}
+
+/* .home-buttons .p-button {
+  width: 250px;
+  font-size: 1.2rem;
+  background-color: #007bff; 
+  color: #fff; 
+  border-radius: 5px; 
+} */
+
+.home-buttons .p-button-leader {
+  background-color: #6c0178; 
+  width: 250px;
+  border-radius: 5px; 
+  color: #fff; 
+  border-color: #6c0178;
+}
+
+.home-buttons .p-button-winner {
+  background-color: #00842c;
+  width: 250px;
+  border-radius: 5px; 
+  color: #fff; 
+  border-color: #00842c;
+}
+
+.home-buttons .p-button-score {
+  background-color: #006c72;
+  width: 250px;
+  border-radius: 5px; 
+  color: #fff; 
+  border-color: #006c72;
+}
+
+.home-buttons .p-button-prize {
+  background-color: #0077ff;
+  width: 250px;
+  border-radius: 5px; 
+  color: #fff; 
+  border-color: #0077ff;
+}
+
+.home-buttons .p-button-reset {
+  background-color: #f71c3d;
+  width: 250px;
+  border-radius: 5px; 
+  color: #fff; 
+  border-color: #f71c3d;
+}
+
+.p-button-distributePrizes {
+  background-color: #17c465;
+  width: 200px;
+  color: #fff; 
+  border-color: #17c465;
+  margin-bottom: 40px;
+}
+
+.distributePrize-header {
+  color: rgb(255, 255, 255);
+  text-align: center; 
+}
+
+.distributePrize-header h1 {
+  margin-bottom: 30px;
+}
+
+.p-button-distributePrizes {
+  display: block; 
+  margin: 0 auto; 
+  margin-top: 40px;
+  margin-bottom: 50px;
+
+}
+
+
+
+/* h2 {
+  margin-bottom: 20px;
+} */
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  width: 100%;
+}
+
+/*****************************/
+.form-containerUpdate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.p-dropdown2,
+.p-inputnumber2 {
+  width: 100%;
+  max-width: 400px; 
+  min-width: 250px;
+  margin: 10px 0;
+} 
+
+ .p-dropdown2,
+.p-inputnumber,
+.submit-button2 {
+  margin-bottom: 20px;
+}
+
+.submit-button2 {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+  background-color: #2b7927;
+  border-radius: 5px;
+  color: #fff;
+  border-color: #2b7927;
+}
+
+/*********************************/
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 100%;
+}
+
+.submit-button {
+  margin-top: 20px;
+}
+
+.p-col-12 {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-md-6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-grid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.p-col-12 .p-md-6 {
+  width: 100%;
+}
+
+.form-field label {
+  color: #ece6e6; 
+}
+
+
+/* Mobil Uyumluluk */
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    /* gap: 10px; */
+    gap: 15px;
+
+  }
+
+  .p-autocomplete,
+  .p-dropdown {
+    /* width: 100%; */
+    width: calc(100% - 20px); 
+    max-width: none;
+  }
+}

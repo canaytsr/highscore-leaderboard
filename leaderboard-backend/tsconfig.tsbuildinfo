@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/types.ts","./src/config/db.ts","./src/config/redis.ts","./src/routes/leaderboardroutes.ts","./src/routes/prizeroutes.ts","./src/routes/resetroutes.ts","./src/services/leaderboardservice.ts","./src/services/prizeservice.ts","./src/services/resetservice.ts"],"version":"5.7.3"}
