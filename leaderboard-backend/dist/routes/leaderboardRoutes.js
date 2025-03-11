@@ -20,7 +20,6 @@ router.get('/', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         console.log("📢 Leaderboard API çağrıldı!");
         const leaderboard = yield (0, leaderboardService_1.getLeaderboard)();
-        console.log("✅ Veriler alındı:", leaderboard);
         res.json(leaderboard);
     }
     catch (error) {
